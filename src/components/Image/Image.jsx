@@ -30,4 +30,5 @@ Image.propTypes = {
     className: PropTypes.string,
     fallback: PropTypes.string,
 };
+
 export default Image;
