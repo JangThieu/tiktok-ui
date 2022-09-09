@@ -10,7 +10,7 @@ function Wrapper({ children, className }) {
 }
 
 Wrapper.propTypes = {
-    children: PropTypes.isRequired,
+    children: PropTypes.node.isRequired,
     className: PropTypes.string,
 };
 
